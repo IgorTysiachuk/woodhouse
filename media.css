@@ -9,6 +9,47 @@
     display: block;
   }
 }
+@media screen and (max-width: 1100px) {
+  .under {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    row-gap: 70px;
+  }
+  .under_img_img1 {
+    display: none;
+  }
+  .under_img_img2 {
+    display: block;
+  }
+  .under_text {
+    width: 600px;
+    row-gap: 50px;
+  }
+  .under_text_pall_p1 {
+    width: 600px;
+    text-align: center;
+  }
+  .under_text_pall_p2 {
+    width: 600px;
+    text-align: center;
+  }
+  .under_text_btn {
+    margin: 0 auto 0 auto;
+  }
+  .line {
+    width: 600px;
+  }
+  .items {
+    width: 600px;
+    height: auto;
+  }
+  .items_block {
+    width: 255px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .header_nav {
     width: 50%;
@@ -62,9 +103,8 @@
   .headeradd {
     justify-content: center;
   }
-  .headeradd_search {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+  .headeradd_search_block {
+    margin-right: 10px;
   }
   .headeradd_search_panel {
     width: 175px;
@@ -74,5 +114,76 @@
   }
   .phideimg {
     display: none;
+  }
+  .under_text {
+    width: 450px;
+  }
+  .under_text_pall_p1 {
+    width: 450px;
+  }
+  .under_text_pall_p2 {
+    width: 450px;
+  }
+  .under_img_img2 {
+    width: 450px;
+  }
+  .line {
+    width: 450px;
+  }
+  .items {
+    width: 450px;
+    row-gap: 30px;
+  }
+  .items_block {
+    margin: 0 auto 0 auto;
+    width: 300px;
+  }
+  .lupa {
+    transform: translateX(-60px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .under_text {
+    width: 280px;
+  }
+  .under_text_pall_p1 {
+    width: 280px;
+    font-size: 20px;
+  }
+  .under_text_pall_p2 {
+    width: 280px;
+    font-size: 16px;
+  }
+  .under_text_btn {
+    width: 280px;
+  }
+  .under_text_btn_p1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .under_text_btn_img {
+    width: 20px;
+    height: 18px;
+  }
+  .under_img_img2 {
+    display: none;
+  }
+  .under_img_img3 {
+    display: block;
+  }
+  .line {
+    width: 280px;
+  }
+  .items {
+    width: 280px;
+  }
+  .items_block {
+    width: 255px;
+  }
+  .lupa {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    transform: translateX(-10px);
   }
 }/*# sourceMappingURL=media.css.map */

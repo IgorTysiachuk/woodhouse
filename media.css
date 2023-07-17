@@ -49,6 +49,26 @@
   .items_block {
     width: 255px;
   }
+  .card {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    row-gap: 57px;
+    width: 100%;
+  }
+  .card_text {
+    order: 2;
+  }
+  .card_imgs {
+    order: 1;
+  }
+  .footer_logos {
+    width: 90%;
+  }
+  .footer_logos_imgs {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .header_nav {
@@ -141,6 +161,37 @@
   .lupa {
     transform: translateX(-60px);
   }
+  .footer {
+    height: auto;
+  }
+  .footer_logos {
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .footer_logos_p1 {
+    display: none;
+  }
+  .footer_logos_imgs {
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  .footer_logos_imgs_img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer_number_p1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card_text {
+    width: 350px;
+    font-size: 20px;
+  }
+  .card_imgs img {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 500px) {
   .under_text {
@@ -185,5 +236,11 @@
     top: 5px;
     right: 0;
     transform: translateX(-10px);
+  }
+  .card_text {
+    width: 280px;
+  }
+  .card_imgs img {
+    width: 280px;
   }
 }/*# sourceMappingURL=media.css.map */

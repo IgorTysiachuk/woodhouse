@@ -75,6 +75,26 @@
             }
         }
     }
+    .profile {
+        width: 600px;
+        flex-direction: column;
+        height: 970px;
+        padding-bottom: 19px;
+        &_right {
+            &_top {
+                width: 538px;
+                margin-left: 31px;
+            }
+            &_bottom {
+                width: 538px;
+                margin-left: 31px;
+                text-align: center;
+            }
+        }
+        &_left {
+            width: 600px;
+        }
+    }
 }
 @media screen and (max-width:1000px) {
     .header {
@@ -206,6 +226,22 @@
             }
         }
     }
+    .profile {
+        width: 450px;
+        &_left {
+            width: 450px;
+            
+        }
+        &_right {
+            width: 450px;
+            &_top {
+                width: 385px;
+            }
+            &_bottom {
+                width: 385px;
+            }
+        }
+    }
 }
 @media screen and (max-width:600px) {
     .card {
@@ -278,6 +314,55 @@
         &_imgs {
             img {
                 width: 280px;
+            }
+        }
+    }
+    .profile {
+        margin-top: 100px;
+        width: 280px;
+        padding-bottom: 60px;
+        &_left {
+            width: 280px;
+            margin-left: -20px;
+            margin-top: 10px;
+            &_top {
+                width: 260px;
+                &_img {
+                    width: 240px;
+                    padding-top: 10px;
+                }
+            }
+            &_bottom {
+                width: 260px;
+                height: auto;
+                padding: 5px 0 5px 0;
+                
+            }
+            
+        }
+        &_right {
+            width: 280px;
+            &_top {
+                width: 260px;
+                margin-left: 10px;
+                &_ul {
+                    &_div {
+                        flex-direction: column;
+                        align-items: start;
+                        margin-top: -8px;
+                        row-gap: 15px;
+                        &_btn {
+                            margin: 0 auto;
+                            display: flex;
+                        }
+                    }
+                }
+            }
+            &_bottom {
+                width: 260px;
+                margin-left: 10px;
+                height: auto;
+                padding: 5px 0 5px 0;
             }
         }
     }

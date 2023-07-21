@@ -422,9 +422,10 @@
 }
 .footer {
     width: 100%;
-    height: 240px;
+    height: auto;
     background: #8C7F77;
     margin-top: 70px;
+    padding-bottom: 10px;
     &_number {
         width: 90%;
         height: 110px;

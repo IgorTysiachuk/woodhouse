@@ -472,3 +472,118 @@
 .textdecoration {
     text-decoration: none;
 }
+.chat {
+    z-index: 5000;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 282px;
+    height: 84px;
+    border-radius: 7px;
+    border: 4px solid #D9C6BA;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    &_p1 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 155.523%; /* 37.325px */
+    }
+    &_p2 {
+        color: #73513D;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 155.523%;
+    }
+
+}
+.cross {
+    z-index: 5001;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    background: none;
+    background-image: url(./img/cross.png);
+    background-size: cover;
+}
+.hide {
+    display: none;
+}
+.chatopen {
+    z-index: 30000000000000;
+    position: fixed;
+    top: 20vh;
+    width: 282px;
+    height: 411px;
+    border-radius: 7px;
+    border: 3px solid #D9C6BA;
+    background: #FFF;
+    top: 55%; /* Перемещаем элемент на 50% от верхней границы родителя */
+    left: 50%; /* Перемещаем элемент на 50% от левой границы родителя */
+    transform: translate(-50%, -50%); /* Центрируем элемент точно по середине */
+    flex-direction: column;
+    justify-content: space-between;
+    &_admin {
+        border-bottom: 2px solid #D9C6BA;
+        height: 48px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        &_p1 {
+            display: block;
+            margin-left: 30px;
+            color: #000;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+    &_down {
+        height: 48px;
+        width: 100%;
+        background: #73513D;
+        &_input {
+            width: 201px;
+            height: 39px;
+            border-radius: 7px;
+            border: 2px solid #D9C6BA;
+            background: rgba(255, 255, 255, 0.80);
+        }
+    }
+}
+// #D9C6BA
+.bodytwo {
+    background-color: #FF7A00;
+    width: 100%;
+    height: 100vh;
+    z-index: 4000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+}
+.showb {
+    display: block;
+}
+.showf {
+    display: flex;
+}
+.hide {
+    display: none;
+}
